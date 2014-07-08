@@ -1,18 +1,21 @@
-# hubot-vimhelpjp
+# hubot-gglurl
 
-anytime anywhere do `:help`.  
-http://vim-help-jp.herokuapp.com/
-
-[![Build Status](https://travis-ci.org/tgfjt/hubot-vimhelpjp.svg?branch=master)](https://travis-ci.org/tgfjt/hubot-vimhelpjp)
-[![NPM version](https://badge.fury.io/js/hubot-vimhelpjp.svg)](http://badge.fury.io/js/hubot-vimhelpjp)
+hubot script for Google UrlShortener 
 
 ## Usage
 
-`:vimhelp CTRL-]`
+Encode:
+
+`hubot gglurl encode <url>`
+
+Decode:
+
+`hubot gglurl decode <url>`
+
 
 ## Install
 
-`npm install hubot-vimhelpjp`
+`npm install hubot-gglurl`
 
 ## Licence
 MIT

@@ -2,7 +2,7 @@
   "name": "hubot-gglurl",
   "version": "0.0.1",
   "author": "tgfjt",
-  "description": "hubotscript for run ':help'",
+  "description": "hubot script for Google UrlShortener",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jshint src"
