@@ -13,20 +13,20 @@
 var gglurl= require('node-gglurl');
 
 module.exports = function(robot) {
-	robot.hear(/:gglurl decode (.*)/i, function(msg) {
+	robot.respond(/gglurl decode (.*)/i, function(msg) {
 		gglurl.decode(function(err, res) {
 			if (!err && res.longUrl) {
-				msg.send(res.longUrl);
+				msg.send('gglurl decode: ' + res.longUrl);
 			} else if (err) {
 				console.log(err);
 			}
 		}, msg.match[1]);
 	});
 
-	robot.hear(/:gglurl encode (.*)/i, function(msg) {
+	robot.respond(/gglurl encode (.*)/i, function(msg) {
 		gglurl.encode(function(err, res) {
 			if (!err && res.id) {
-				msg.send(res.id);
+				msg.send('gglurl encode: ' + res.id);
 			} else if (err) {
 				console.log(err);
 			}
