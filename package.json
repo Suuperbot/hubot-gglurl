@@ -1,0 +1,30 @@
+{
+  "name": "hubot-gglurl",
+  "version": "0.0.1",
+  "author": "tgfjt",
+  "description": "hubotscript for run ':help'",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jshint src"
+  },
+  "keywords": [
+    "hubot",
+    "google",
+    "shorturl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgfjt/hubot-gglurl"
+  },
+  "bugs": {
+    "email": "tgfjt.mail@gmail.com",
+    "url": "https://github.com/tgfjt/hubot-gglurl/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-gglurl": "0.0.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.1"
+  }
+}
