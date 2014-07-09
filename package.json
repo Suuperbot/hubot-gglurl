@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "node-gglurl": "0.0.2"
+    "node-gglurl": "0.0.4"
   },
   "devDependencies": {
     "jshint": "^2.5.1"

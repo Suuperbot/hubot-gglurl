@@ -17,7 +17,7 @@ Decode:
 
 ## Install
 
-`npm install hubot-gglurl`
+`npm i -S hubot-gglurl`
 
 ## Licence
 MIT
