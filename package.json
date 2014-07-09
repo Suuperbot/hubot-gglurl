@@ -1,6 +1,6 @@
 {
   "name": "hubot-gglurl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "tgfjt",
   "description": "hubot script for Google UrlShortener",
   "main": "index.js",
